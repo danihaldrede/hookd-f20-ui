@@ -6,7 +6,7 @@ import Profile from '../views/Profile.vue'
 
 Vue.use(VueRouter)
 
-cont routes = [
+const routes = [
   {
     path: '/',
     name: 'Home',
