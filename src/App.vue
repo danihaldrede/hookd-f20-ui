@@ -2,9 +2,9 @@
 <template>
     <div id="app">
         <div id="nav">
-            <router-link to="/">Home  </router-link>
-            <router-link to="/about">About   </router-link>
+            <router-link to="/about">About        </router-link>
             <router-link to="/login">Login   </router-link>
+            <router-link to="/signup">Sign Up  </router-link>
         </div>
         <router-view/>
         <b-navbar fixed="bottom" type="dark" variant="success">
@@ -13,7 +13,7 @@
                     <b-icon-person-circle/><br>
                     Profile
                 </b-nav-item>
-                <b-nav-item to="Weather">
+                <b-nav-item to="/weather">
                     <b-icon-sun /><br>
                     Weather
                 </b-nav-item>
