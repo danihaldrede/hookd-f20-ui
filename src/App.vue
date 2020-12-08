@@ -2,9 +2,9 @@
 <template>
     <div id="app">
         <div id="nav">
-            <router-link to="/">Home </router-link>
-            <router-link to="/about">About </router-link>
-            <router-link to="/login">Login </router-link>
+            <router-link to="/">Home  </router-link>
+            <router-link to="/about">About   </router-link>
+            <router-link to="/login">Login   </router-link>
         </div>
         <router-view/>
         <b-navbar fixed="bottom" type="dark" variant="success">
@@ -25,9 +25,9 @@
                     <b-icon-journals /><br>
                     Journal
                 </b-nav-item>
-                <b-nav-item to="FishLog">
+                <b-nav-item to="/fish">
                     <b-icon-map-fill /><br>
-                    FishLog
+                    Fish
                 </b-nav-item>
             </b-navbar-nav>
         </b-navbar>

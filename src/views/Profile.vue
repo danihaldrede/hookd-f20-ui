@@ -1,13 +1,3 @@
 <template>
-  <div>Profile</div>
+   <div>Welcome Danielle!</div>
 </template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>

@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Profile from '../views/Profile.vue'
+import Fish from '../views/Fish.vue'
+import Weather from '../views/Weather.vue'
 
 Vue.use(VueRouter)
 
@@ -19,7 +21,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  },
   {
     path: '/login',
     name: 'Login',
@@ -29,6 +31,16 @@ const routes = [
     path: '/profile',
     name: 'Profile',
     component: Profile
+  },
+  {
+    path: '/fish',
+    name: 'Fish',
+    component: Fish
+  },
+  {
+    path: '/weather',
+    name: 'Weather',
+    component: Weather
   }
 ]
 
