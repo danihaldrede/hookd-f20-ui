@@ -1,13 +1,15 @@
+// nav bar
 <template>
     <div id="app">
         <div id="nav">
-            <router-link to="/">Home</router-link>
-            <router-link to="/">About</router-link>
+            <router-link to="/">Home </router-link>
+            <router-link to="/about">About </router-link>
+            <router-link to="/login">Login </router-link>
         </div>
         <router-view/>
-        <b-navbar fixed="bottom" type="dark" variant="info">
+        <b-navbar fixed="bottom" type="dark" variant="success">
             <b-navbar-nav class="mx-auto" align="center">
-                <b-nav-item to="Profile">
+                <b-nav-item to="/profile">
                     <b-icon-person-circle/><br>
                     Profile
                 </b-nav-item>
@@ -31,6 +33,13 @@
         </b-navbar>
     </div>
 </template>
+
+<script>
+// @ is an alias to /src
+export default {
+  name: 'Home'
+}
+</script>
 
 <style lang="scss">
 #app {
