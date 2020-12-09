@@ -4,7 +4,6 @@
         <div id="nav">
             <router-link to="/about">About        </router-link>
             <router-link to="/login">Login   </router-link>
-            <router-link to="/prefer1">Pref </router-link>
         </div>
         <router-view/>
         <b-navbar fixed="bottom" type="light" variant="success">
@@ -17,7 +16,7 @@
                     <b-icon-sun /><br>
                     Weather
                 </b-nav-item>
-                <b-nav-item to="/">
+                <b-nav-item to="/" size="lg">
                     <b-icon icon="house-fill"/><br>
                     Home
                 </b-nav-item>
