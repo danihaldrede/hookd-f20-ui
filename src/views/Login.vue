@@ -27,7 +27,7 @@
         </b-input-group>
         <b-button to="/home" variant="outline-success" class="mb-5">Sign In</b-button>
     <div class="my-6">Don't have an account?</div>
-        <b-button variant="outline-success" class="my-1">Sign up</b-button>
+        <b-button to="/signup" variant="outline-success" class="my-1">Sign up</b-button>
 </div>
 </template>
 

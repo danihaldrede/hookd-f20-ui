@@ -6,6 +6,8 @@ import Profile from '../views/Profile.vue'
 import Fish from '../views/Fish.vue'
 import Weather from '../views/Weather.vue'
 import Signup from '../views/Signup.vue'
+import Prefer from '../views/Prefer.vue'
+import Prefer1 from '../views/Prefer1.vue'
 
 Vue.use(VueRouter)
 
@@ -47,6 +49,21 @@ const routes = [
     path: '/signup',
     name: 'Sign Up',
     component: Signup
+  },
+  {
+    path: '/signup',
+    name: 'Sign Up',
+    component: Signup
+  },
+  {
+    path: '/prefer',
+    name: 'Preferences',
+    component: Prefer
+  },
+  {
+    path: '/prefer1',
+    name: 'Prefer',
+    component: Prefer1
   }
 ]
 

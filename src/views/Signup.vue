@@ -28,7 +28,7 @@
             <b-form-input type="text" placeholder="Enter a Password"></b-form-input>
         </b-input-group>
         <div>Date of Birth </div>
-        <b-dropdown text="Month">
+        <b-dropdown text="Month" class="mb-4" variant="outline-success">
             <b-dropdown-item href="#">January</b-dropdown-item>
             <b-dropdown-item href="#">February</b-dropdown-item>
             <b-dropdown-item href="#">March</b-dropdown-item>
@@ -42,7 +42,7 @@
             <b-dropdown-item href="#">November</b-dropdown-item>
             <b-dropdown-item href="#">December</b-dropdown-item>
         </b-dropdown>
-        <b-dropdown text="Date">
+        <b-dropdown text="Date" class="mb-4" variant="outline-success">
             <b-dropdown-item href="#">1</b-dropdown-item>
             <b-dropdown-item href="#">2</b-dropdown-item>
             <b-dropdown-item href="#">3</b-dropdown-item>
@@ -75,7 +75,7 @@
             <b-dropdown-item href="#">30</b-dropdown-item>
             <b-dropdown-item href="#">31</b-dropdown-item>
         </b-dropdown>
-        <b-dropdown text="Year">
+        <b-dropdown text="Year" class="mb-4" variant="outline-success">
             <b-dropdown-item href="#">2020</b-dropdown-item>
             <b-dropdown-item href="#">2019</b-dropdown-item>
             <b-dropdown-item href="#">2018</b-dropdown-item>
@@ -178,5 +178,13 @@
             <b-dropdown-item href="#">1921</b-dropdown-item>
             <b-dropdown-item href="#">1920</b-dropdown-item>
         </b-dropdown>
+
+        <div>Gender</div>
+        <b-dropdown class="mb-5" text="" variant="outline-success">
+            <b-dropdown-item href="#">Female</b-dropdown-item>
+            <b-dropdown-item href="#">Male</b-dropdown-item>
+            <b-dropdown-item href="#">Don't want to disclose</b-dropdown-item>
+        </b-dropdown>
+        <b-button to="/prefer" block variant="outline-success">Step 1: Style Preferences</b-button>
     </div>
 </template>

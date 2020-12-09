@@ -4,10 +4,10 @@
         <div id="nav">
             <router-link to="/about">About        </router-link>
             <router-link to="/login">Login   </router-link>
-            <router-link to="/signup">Sign Up  </router-link>
+            <router-link to="/prefer1">Pref </router-link>
         </div>
         <router-view/>
-        <b-navbar fixed="bottom" type="dark" variant="success">
+        <b-navbar fixed="bottom" type="light" variant="success">
             <b-navbar-nav class="mx-auto" align="center">
                 <b-nav-item to="/profile">
                     <b-icon-person-circle/><br>
