@@ -1,34 +1,34 @@
 <template>
     <div class="Sign up">
-        <h1>Please fill out the fields below:</h1>
-            <h1 size="m">
-        </h1>
-        <b-input-group size="lg" class="mb-4">
+        <h3>Please fill out the fields below:</h3>
+            <h3 size="m">
+        </h3>
+        <b-input-group size="lg" class="mb-2">
             <b-input-group-prepend is-text>
                 <b-icon icon="person-circle"></b-icon>
             </b-input-group-prepend>
             <b-form-input type="text" placeholder="Enter a Username"></b-form-input>
         </b-input-group>
-        <b-input-group size="lg" class="mb-4">
+        <b-input-group size="lg" class="mb-2">
             <b-input-group-prepend is-text>
                 <b-icon icon="person-fill"></b-icon>
             </b-input-group-prepend>
             <b-form-input type="text" placeholder="Enter Name"></b-form-input>
         </b-input-group>
-        <b-input-group size="lg" class="mb-4">
+        <b-input-group size="lg" class="mb-2">
             <b-input-group-prepend is-text>
                 <b-icon icon="envelope-fill"></b-icon>
             </b-input-group-prepend>
             <b-form-input type="text" placeholder="johndoe1@gmail.com"></b-form-input>
         </b-input-group>
-        <b-input-group size="lg" class="mb-4">
+        <b-input-group size="lg" class="mb-2">
             <b-input-group-prepend is-text>
                 <b-icon icon="file-lock2"></b-icon>
             </b-input-group-prepend>
             <b-form-input type="text" placeholder="Enter a Password"></b-form-input>
         </b-input-group>
         <div>Date of Birth </div>
-        <b-dropdown text="Month" class="mb-4" variant="outline-success">
+        <b-dropdown text="Month" class="mb-2" variant="outline-success">
             <b-dropdown-item href="#">January</b-dropdown-item>
             <b-dropdown-item href="#">February</b-dropdown-item>
             <b-dropdown-item href="#">March</b-dropdown-item>
@@ -42,7 +42,7 @@
             <b-dropdown-item href="#">November</b-dropdown-item>
             <b-dropdown-item href="#">December</b-dropdown-item>
         </b-dropdown>
-        <b-dropdown text="Date" class="mb-4" variant="outline-success">
+        <b-dropdown text="Date" class="mb-2" variant="outline-success">
             <b-dropdown-item href="#">1</b-dropdown-item>
             <b-dropdown-item href="#">2</b-dropdown-item>
             <b-dropdown-item href="#">3</b-dropdown-item>
@@ -75,7 +75,7 @@
             <b-dropdown-item href="#">30</b-dropdown-item>
             <b-dropdown-item href="#">31</b-dropdown-item>
         </b-dropdown>
-        <b-dropdown text="Year" class="mb-4" variant="outline-success">
+        <b-dropdown text="Year" class="mb-2" variant="outline-success">
             <b-dropdown-item href="#">2020</b-dropdown-item>
             <b-dropdown-item href="#">2019</b-dropdown-item>
             <b-dropdown-item href="#">2018</b-dropdown-item>
@@ -185,6 +185,6 @@
             <b-dropdown-item href="#">Male</b-dropdown-item>
             <b-dropdown-item href="#">Don't want to disclose</b-dropdown-item>
         </b-dropdown>
-        <b-button to="/prefer" block variant="outline-success">Step 1: Style Preferences</b-button>
+        <b-button to="/prefer" block variant="outline-success" align="center-middle">Step 1: Style Preferences</b-button>
     </div>
 </template>

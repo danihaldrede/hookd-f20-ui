@@ -1,5 +1,5 @@
 <template>
-  <h2>Welcome Back to Hookd</h2>
+  <h2>Welcome to Hook'd</h2>
 </template>
 
 <script>
