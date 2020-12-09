@@ -12,10 +12,21 @@
             Largemouth Bass
         </b-list-group-item>
         <b-list-group-item>
-            <b-avatar src="." size="4rem" class="align-center"></b-avatar>
+            <b-avatar src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Smallmouth_bass.png" size="4rem" class="align-center"></b-avatar>
             Smallmouth Bass
         </b-list-group-item>
+        <b-list-group-item>
+            <b-avatar src="https://mycanyonlake-rochen.netdna-ssl.com/wp-content/uploads/2018/11/trout-illustration-816x394.jpg" size="4rem" class="align-center"></b-avatar>
+            Rainbow Trout
+        </b-list-group-item>
+        <b-list-group-item>
+            <b-avatar src="https://upload.wikimedia.org/wikipedia/commons/9/94/Ameiurus_melas_by_Duane_Raver.png" size="4rem" class="align-center"></b-avatar>
+            Catfish
+        </b-list-group-item>
+        <b-list-group-item>
+            <b-avatar src="https://www.saltwatersportsman.com/resizer/aqaRlmAeAAh_ZrWv0J11ftDsj_g=/368x250/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/M6ORJLKOF5MFSHOFU6MQE6BFOU.jpg" size="4rem" class="align-center"></b-avatar>
+            Striper
+        </b-list-group-item>
     </b-list-group>
-
     </div>
 </template>
